@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'junegunn/seoul257.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'elixir-editors/vim-elixir'
+Plug 'lifepillar/pgsql.vim'
 
 " -- List ends here. Plugins become visible to Vim after this call.
 call plug#end()
