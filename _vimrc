@@ -19,6 +19,7 @@ set nosmartindent
 syntax on
 
 :colo desert " colour scheme for GVim
+set colorcolumn=80
 set number
 set relativenumber
 
