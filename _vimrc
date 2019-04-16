@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'tpope/vim-sensible'
 " Plug 'junegunn/seoul257.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'ElmCast/elm-vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'lifepillar/pgsql.vim'
 
@@ -19,7 +20,7 @@ set nosmartindent
 syntax on
 
 :colo desert " colour scheme for GVim
-set colorcolumn=80
+set colorcolumn=81
 set number
 set relativenumber
 
