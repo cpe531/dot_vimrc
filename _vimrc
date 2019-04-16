@@ -3,8 +3,8 @@
 call plug#begin('~/.vim/plugged')
 
 " -- Declare the list of plugins.
-" Plug 'tpope/vim-sensible'
-" Plug 'junegunn/seoul257.vim'
+Plug 'tpope/vim-sensible'    " tpope's defaults
+Plug 'junegunn/seoul256.vim' " a nice colour scheme
 Plug 'scrooloose/nerdtree'
 Plug 'ElmCast/elm-vim'
 Plug 'elixir-editors/vim-elixir'
@@ -19,7 +19,11 @@ set nocindent
 set nosmartindent
 syntax on
 
-:colo desert " colour scheme for GVim
+" colour stuff
+":colo desert   
+:colo seoul256 " colour scheme for GVim
+:colo seoul256-light
+
 set colorcolumn=81
 set number
 set relativenumber
