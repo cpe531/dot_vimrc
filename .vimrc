@@ -1,3 +1,7 @@
+" Install plug with: 
+" iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim | ni $HOME/vimfiles/autoload/plug.vim -Force
+" Instructions found @: github.com/junegunn/vim-plug
+
 call plug#begin()
 
 Plug 'vim/killersheep'
