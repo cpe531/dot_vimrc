@@ -33,9 +33,11 @@ set number      " line numbers
 set backspace=indent,eol,start
 set scrolloff=5
 
-set expandtab
-set tabstop=4
-set shiftwidth=4
+set cindent
+" set expandtab     " This converts tabs to spaces, to use real tab do Ctrl-V<Tab>
+set tabstop=4       " The number of spaces to be inserted on <Tab>
+set shiftwidth=4    " This is the auto indent for certain file types.
+" Do :retab after changing these settings
 
 " set colorcolumn=100
 
